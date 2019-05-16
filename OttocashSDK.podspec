@@ -9,12 +9,12 @@
 Pod::Spec.new do |spec|
   spec.name         = "OttocashSDK"
   spec.version      = "0.9.0"
-  spec.summary      = "A short description of OttocashSDK."
-  spec.description  = ""
+  spec.summary      = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+  spec.description  = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
 
-  spec.homepage     = "http://EXAMPLE/OttocashSDK"
+  spec.homepage     = "https://github.com/clappingape/OttocashSDK.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
-  spec.license      = "MIT (example)"
+  spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   spec.author             = { "Nur Choirudin" => "nurchoi@clappingape.com" }
   spec.platform     = :ios
@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
   spec.source       = { :git => "https://github.com/clappingape/OttocashSDK.git", :tag => "#{spec.version}" }
-  spec.source_files  = "/*"
+  spec.source_files  = "**/*.{h,m,framework}"
   spec.exclude_files = "Classes/Exclude"
   spec.ios.vendored_frameworks = "OTTOCashSDK.framework"
 
@@ -66,7 +66,7 @@ Pod::Spec.new do |spec|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # spec.requires_arc = true
+  spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
