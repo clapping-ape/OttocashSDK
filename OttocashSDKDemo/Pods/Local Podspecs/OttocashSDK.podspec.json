@@ -19,6 +19,5 @@
   "exclude_files": "Classes/Exclude",
   "ios": {
     "vendored_frameworks": "OTTOCashSDK.framework"
-  },
-  "requires_arc": true
+  }
 }

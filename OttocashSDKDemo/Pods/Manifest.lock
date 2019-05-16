@@ -10,11 +10,11 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   OttocashSDK:
-    :commit: 7739cf0414b851ecd738c1bd66add81479c3ac92
+    :commit: 5f150f0853f0e78d54d443c8f89767f1e098c71f
     :git: https://github.com/clappingape/OttocashSDK.git
 
 SPEC CHECKSUMS:
-  OttocashSDK: a7333aa5f912f531d011ba6347dd4f15f5c1dc93
+  OttocashSDK: b530d2155b37d826ebfdc35c45f58fc0238f7c57
 
 PODFILE CHECKSUM: b05b78edae188d5067b7f7fc7e047ebbab858f61
 

@@ -238,12 +238,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-OttocashSDKDemo/Pods-OttocashSDKDemo-frameworks.sh",
 				"${PODS_ROOT}/OttocashSDK/OTTOCashSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/OttocashSDK/OttocashSDK.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OTTOCashSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OttocashSDK.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

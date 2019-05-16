@@ -14,8 +14,8 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DA861B02E3A88BE78051F68AE02F069B"
-               BuildableName = "OttocashSDK"
+               BlueprintIdentifier = "759BEA04FD87296A7BA986F635B2BC07"
+               BuildableName = "OttocashSDK.framework"
                BlueprintName = "OttocashSDK"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
