@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import OTTOCashSDK
 
 class ViewController: UIViewController {
+    var otto : OTTOCashSDKManager? = nil
 
     override func viewDidLoad() {
         super.viewDidLoad()
+//        otto = OTTOCashSDKManager.shared.addWidget()
         // Do any additional setup after loading the view.
     }
 

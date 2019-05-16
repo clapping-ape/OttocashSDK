@@ -1,0 +1,21 @@
+PODS:
+  - OttocashSDK (0.9.0)
+
+DEPENDENCIES:
+  - OttocashSDK (from `https://github.com/clappingape/OttocashSDK.git`)
+
+EXTERNAL SOURCES:
+  OttocashSDK:
+    :git: https://github.com/clappingape/OttocashSDK.git
+
+CHECKOUT OPTIONS:
+  OttocashSDK:
+    :commit: 7739cf0414b851ecd738c1bd66add81479c3ac92
+    :git: https://github.com/clappingape/OttocashSDK.git
+
+SPEC CHECKSUMS:
+  OttocashSDK: a7333aa5f912f531d011ba6347dd4f15f5c1dc93
+
+PODFILE CHECKSUM: b05b78edae188d5067b7f7fc7e047ebbab858f61
+
+COCOAPODS: 1.6.1
