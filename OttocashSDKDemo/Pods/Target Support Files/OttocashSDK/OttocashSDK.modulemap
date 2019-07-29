@@ -1,6 +1,0 @@
-framework module OttocashSDK {
-  umbrella header "OttocashSDK-umbrella.h"
-
-  export *
-  module * { export * }
-}

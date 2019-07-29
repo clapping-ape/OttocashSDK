@@ -1,21 +1,16 @@
 PODS:
-  - OttocashSDK (0.9.0)
+  - OTTOCashSDK (0.10.1-beta)
 
 DEPENDENCIES:
-  - OttocashSDK (from `https://github.com/clappingape/OttocashSDK.git`)
+  - OTTOCashSDK (= 0.10.1-beta)
 
-EXTERNAL SOURCES:
-  OttocashSDK:
-    :git: https://github.com/clappingape/OttocashSDK.git
-
-CHECKOUT OPTIONS:
-  OttocashSDK:
-    :commit: 5f150f0853f0e78d54d443c8f89767f1e098c71f
-    :git: https://github.com/clappingape/OttocashSDK.git
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - OTTOCashSDK
 
 SPEC CHECKSUMS:
-  OttocashSDK: b530d2155b37d826ebfdc35c45f58fc0238f7c57
+  OTTOCashSDK: 76e28b20af726e9b1e573cb5c7c942c4cc3cc08a
 
-PODFILE CHECKSUM: b05b78edae188d5067b7f7fc7e047ebbab858f61
+PODFILE CHECKSUM: 3381b2b003c74129c738f107df56d36bae6ff419
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.7.1
