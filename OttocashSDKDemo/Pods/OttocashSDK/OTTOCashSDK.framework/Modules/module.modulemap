@@ -1,0 +1,11 @@
+framework module OTTOCashSDK {
+  umbrella header "OTTOCashSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module OTTOCashSDK.Swift {
+    header "OTTOCashSDK-Swift.h"
+    requires objc
+}
