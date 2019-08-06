@@ -18,9 +18,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         otto = OTTOCashSDKManager.shared
-        otto?.setupClient(id: "CLIENT_ID", secret: "CLIENT_SECRET")
+        otto?.setupClient(id: "f04e0a8a7a129b42d3089ebb68bc3c09671c0f23d1ee2a25a996883823844d60", secret: "a136e35b69881a9496a14d2652976c72054cf18ae57ffb7461263a41bf3f2866")
+        otto?.setDebugMode(true)
         let userLocation:CLLocation = CLLocation(latitude: 0.0, longitude: 0.0)
-        otto?.userIdentity(name: "[APP_NAME]", location: userLocation.coordinate, phone: "[PHONE NUMBER]")
+        otto?.userIdentity(name: "iLotte", location: userLocation.coordinate, phone: "082123456789")
     }
 
     override func viewWillAppear(_ animated: Bool) {
