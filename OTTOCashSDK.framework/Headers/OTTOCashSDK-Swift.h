@@ -231,6 +231,8 @@ SWIFT_PROTOCOL("_TtP11OTTOCashSDK17OCPaymentDelegate_")
 
 
 
+
+
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
 #endif
@@ -447,6 +449,8 @@ SWIFT_PROTOCOL("_TtP11OTTOCashSDK17OCPaymentDelegate_")
 - (void)didPaymentCheckoutFailed;
 - (void)didTransferSuccess;
 @end
+
+
 
 
 
