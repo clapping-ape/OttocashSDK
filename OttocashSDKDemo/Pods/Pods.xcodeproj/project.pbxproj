@@ -86,42 +86,44 @@
 
 /* Begin PBXFileReference section */
 		01006B2301248D7A62F916C31DF2FCAE /* Pods-OttocashSDKDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OttocashSDKDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		050D8DFEF71A337413507EA1AC95786A /* Fabric.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Fabric.xcconfig; sourceTree = "<group>"; };
+		01EF9C97929EC6580CDFBFD97550860A /* CLSReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSReport.h; path = iOS/Crashlytics.framework/Headers/CLSReport.h; sourceTree = "<group>"; };
 		0EA6B924C67BC2C1082B7F6CEDBD74F3 /* Pods-OttocashSDKDemoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OttocashSDKDemoUITests-Info.plist"; sourceTree = "<group>"; };
-		215334F34A26623800FCD8E168411F74 /* OTTOCashSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTTOCashSDK.xcconfig; sourceTree = "<group>"; };
-		26DAA5FC5E56F83D5E630FDD094B9F69 /* Crashlytics.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Crashlytics.xcconfig; sourceTree = "<group>"; };
-		288C12661C3693DB6D25439F2DCD9DF0 /* Crashlytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Crashlytics.h; path = iOS/Crashlytics.framework/Headers/Crashlytics.h; sourceTree = "<group>"; };
+		152C4A832A81E7DEE53C720A6D0763D6 /* OttocashSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OttocashSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1755CF00D625ABEF4CBC4984C67D298C /* ANSCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSCompatibility.h; path = iOS/Crashlytics.framework/Headers/ANSCompatibility.h; sourceTree = "<group>"; };
+		25CDD5105AED0CCF798A9846632E1652 /* Crashlytics.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Crashlytics.xcconfig; sourceTree = "<group>"; };
 		2D78606A5F70E3750C5515227492F157 /* Pods_OttocashSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OttocashSDKDemo.framework; path = "Pods-OttocashSDKDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		343FF74B15CBBCD8183B7F3CEF0B8A52 /* CLSStackFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSStackFrame.h; path = iOS/Crashlytics.framework/Headers/CLSStackFrame.h; sourceTree = "<group>"; };
 		3A26CE4DFE9AAD60AC2106323C1AAE37 /* Pods-OttocashSDKDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OttocashSDKDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3B2BDAF7340F4C0E7D3ABAE856A21D30 /* Crashlytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Crashlytics.h; path = iOS/Crashlytics.framework/Headers/Crashlytics.h; sourceTree = "<group>"; };
+		461537160910D4E39172A3ADECDBB5DE /* Fabric.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Fabric.xcconfig; sourceTree = "<group>"; };
+		49BA62A1A1AF641424298F314F5F2254 /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = iOS/Fabric.framework/Headers/FABAttributes.h; sourceTree = "<group>"; };
 		5078EC9F70DAEECAB7632C0AECEE47C8 /* Pods-OttocashSDKDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OttocashSDKDemoUITests-dummy.m"; sourceTree = "<group>"; };
-		544DF846C9552C851C98232947AC55ED /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = iOS/Crashlytics.framework; sourceTree = "<group>"; };
-		54E6A7C101609C18F1162A92FA0EF336 /* CLSAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSAttributes.h; path = iOS/Crashlytics.framework/Headers/CLSAttributes.h; sourceTree = "<group>"; };
+		56C2C5D7A44741B71F314591DAA0EFA6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		5E207A5E582BE03AC8697F813F1FDBD1 /* Pods-OttocashSDKDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OttocashSDKDemoUITests.modulemap"; sourceTree = "<group>"; };
 		5E8B5623E7E80499688D4AB2DF68BA3D /* Pods-OttocashSDKDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OttocashSDKDemo.modulemap"; sourceTree = "<group>"; };
-		5F6490D4DDCA7E0B8283FE7CEF482FD3 /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
 		6A064BE19464CCFC8F094BE3099F5960 /* Pods-OttocashSDKDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OttocashSDKDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6AAF96FE9F36E63CD36E59A7AE15BE1C /* Pods-OttocashSDKDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OttocashSDKDemo-frameworks.sh"; sourceTree = "<group>"; };
-		71A527FDF5C5DBF7F9456DAC80EFFD53 /* OTTOCashSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OTTOCashSDK.h; path = OTTOCashSDK.framework/Headers/OTTOCashSDK.h; sourceTree = "<group>"; };
+		6C736423ECDE86C4094F5B752166A490 /* CLSLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSLogging.h; path = iOS/Crashlytics.framework/Headers/CLSLogging.h; sourceTree = "<group>"; };
+		7561AE73EFCFC7A12E9BA438357EF07A /* OTTOCashSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OTTOCashSDK.framework; sourceTree = "<group>"; };
 		7C73D02727CFC0EFAB19A4DE1C11AFC0 /* Pods-OttocashSDKDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OttocashSDKDemo-dummy.m"; sourceTree = "<group>"; };
+		88B72E29B4D0D609360F97405C741E60 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
 		89A90C6D294A35FB949D847DDC7885E4 /* Pods-OttocashSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OttocashSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		8A34565436CEF0CEB7B022ACC61C394C /* ANSCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSCompatibility.h; path = iOS/Crashlytics.framework/Headers/ANSCompatibility.h; sourceTree = "<group>"; };
-		91E2255630B08E5B38D213BE8DC71CDC /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = iOS/Crashlytics.framework/Headers/Answers.h; sourceTree = "<group>"; };
+		8D0EB6C1B28CC5368324C1B46C652B97 /* OTTOCashSDK-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OTTOCashSDK-Swift.h"; path = "OTTOCashSDK.framework/Headers/OTTOCashSDK-Swift.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DFC5E3504248582748FA562AAA182E7 /* Pods-OttocashSDKDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OttocashSDKDemoUITests-umbrella.h"; sourceTree = "<group>"; };
+		A1C6C2E7ED8E7FEC328DB2353187F485 /* CLSAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSAttributes.h; path = iOS/Crashlytics.framework/Headers/CLSAttributes.h; sourceTree = "<group>"; };
 		A44D5B3432D28F9E5A2C0C495003E6FB /* Pods-OttocashSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OttocashSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
 		A6A78B0E90C1D35DDE0A50FD3AADAD50 /* Pods-OttocashSDKDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OttocashSDKDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A7829E3543D442F9385D8B9A67E14A07 /* Pods-OttocashSDKDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OttocashSDKDemo-umbrella.h"; sourceTree = "<group>"; };
+		BA19F0EEA49B20526FD490DC1974D740 /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
 		BA909CB963AD8E4C38DA95722A32C57D /* Pods_OttocashSDKDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OttocashSDKDemoUITests.framework; path = "Pods-OttocashSDKDemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF1708EBCF0D6E5D5C3D410F75DC6E6F /* OTTOCashSDK-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OTTOCashSDK-Swift.h"; path = "OTTOCashSDK.framework/Headers/OTTOCashSDK-Swift.h"; sourceTree = "<group>"; };
-		C32F4FA4ADE8ABDBFE8BAE3C912CC675 /* OTTOCashSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OTTOCashSDK.framework; sourceTree = "<group>"; };
-		C410D1AEC194192198FB5327D14BE866 /* CLSLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSLogging.h; path = iOS/Crashlytics.framework/Headers/CLSLogging.h; sourceTree = "<group>"; };
+		BC30E18BD34FD63964EA263DB7653A8F /* OTTOCashSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OTTOCashSDK.h; path = OTTOCashSDK.framework/Headers/OTTOCashSDK.h; sourceTree = "<group>"; };
+		C3DE8C288662719F827B5F00F644D247 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = iOS/Crashlytics.framework; sourceTree = "<group>"; };
 		DA964F29119FBBE7877864531E9DDA40 /* Pods-OttocashSDKDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OttocashSDKDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E5A8252CFAEA3C4D72C65613F30B2C43 /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = iOS/Fabric.framework/Headers/FABAttributes.h; sourceTree = "<group>"; };
 		E72987235CAAC071958AEDCB7AD85110 /* Pods-OttocashSDKDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OttocashSDKDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EC191897AFAF9A421B11A295435BD877 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
-		ECBF0EFB1AAE5BC828479934D6073DDF /* CLSStackFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSStackFrame.h; path = iOS/Crashlytics.framework/Headers/CLSStackFrame.h; sourceTree = "<group>"; };
-		F0B057C56482FEE4FC2120B6A2AFA546 /* CLSReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSReport.h; path = iOS/Crashlytics.framework/Headers/CLSReport.h; sourceTree = "<group>"; };
+		EF9715D2B56F21D53F8CF1CDD409D503 /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = iOS/Crashlytics.framework/Headers/Answers.h; sourceTree = "<group>"; };
+		F8ED49CA6B9D0C1DA0FAB25E240CE05B /* OTTOCashSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTTOCashSDK.xcconfig; sourceTree = "<group>"; };
 		F9BB7ED3714C51A45F79B4E66A84DAEE /* Pods-OttocashSDKDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OttocashSDKDemo-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -145,42 +147,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		140D16F62E1742846DDC9A8BAF888534 /* Fabric */ = {
+		03730D3453394BACAD8EB0B6AD50515B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E5A8252CFAEA3C4D72C65613F30B2C43 /* FABAttributes.h */,
-				5F6490D4DDCA7E0B8283FE7CEF482FD3 /* Fabric.h */,
-				B061F3C45E08B773369DE4B3B50C5774 /* Frameworks */,
-				FB11FADE5666A592705C22B300151FD9 /* Support Files */,
+				56C2C5D7A44741B71F314591DAA0EFA6 /* LICENSE */,
+				152C4A832A81E7DEE53C720A6D0763D6 /* OttocashSDK.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		12DDF81CBF331557CE4969A188171F16 /* Fabric */ = {
+			isa = PBXGroup;
+			children = (
+				49BA62A1A1AF641424298F314F5F2254 /* FABAttributes.h */,
+				BA19F0EEA49B20526FD490DC1974D740 /* Fabric.h */,
+				29868B33119649758BE16107CA127C05 /* Frameworks */,
+				FCD3078F4044A7CED7373FEBF5FE1E9F /* Support Files */,
 			);
 			name = Fabric;
 			path = Fabric;
 			sourceTree = "<group>";
 		};
-		28F364C3F215F5C9487B71E7F2330C45 /* Support Files */ = {
+		234218BCADD3050D66931ACEFE4743BD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				26DAA5FC5E56F83D5E630FDD094B9F69 /* Crashlytics.xcconfig */,
+				25CDD5105AED0CCF798A9846632E1652 /* Crashlytics.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Crashlytics";
 			sourceTree = "<group>";
 		};
-		3FF6DD811C2A95C2A40E7A47428A4498 /* Crashlytics */ = {
+		29868B33119649758BE16107CA127C05 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8A34565436CEF0CEB7B022ACC61C394C /* ANSCompatibility.h */,
-				91E2255630B08E5B38D213BE8DC71CDC /* Answers.h */,
-				54E6A7C101609C18F1162A92FA0EF336 /* CLSAttributes.h */,
-				C410D1AEC194192198FB5327D14BE866 /* CLSLogging.h */,
-				F0B057C56482FEE4FC2120B6A2AFA546 /* CLSReport.h */,
-				ECBF0EFB1AAE5BC828479934D6073DDF /* CLSStackFrame.h */,
-				288C12661C3693DB6D25439F2DCD9DF0 /* Crashlytics.h */,
-				782DD3013AF9B060C6319374D5D2FFAA /* Frameworks */,
-				28F364C3F215F5C9487B71E7F2330C45 /* Support Files */,
+				88B72E29B4D0D609360F97405C741E60 /* Fabric.framework */,
 			);
-			name = Crashlytics;
-			path = Crashlytics;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D6A2EF714EDCBB29091A94D88D6B7E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94D785C7194A907AA00F244C7708504A /* Crashlytics */,
+				12DDF81CBF331557CE4969A188171F16 /* Fabric */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5391DBFB0B62552C2F6A3B9571DE5C2E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8ED49CA6B9D0C1DA0FAB25E240CE05B /* OTTOCashSDK.xcconfig */,
+			);
+			name = "Support Files";
+			path = "OttocashSDKDemo/Pods/Target Support Files/OTTOCashSDK";
+			sourceTree = "<group>";
+		};
+		5D4D1E80DC7C1759A5AB7588C47D2B3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7561AE73EFCFC7A12E9BA438357EF07A /* OTTOCashSDK.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		654021545D55F904538D54953E147F09 /* Pods-OttocashSDKDemo */ = {
@@ -200,20 +228,20 @@
 			path = "Target Support Files/Pods-OttocashSDKDemo";
 			sourceTree = "<group>";
 		};
-		6779F3F069DF87F35631CCE4086E19DA /* Frameworks */ = {
+		71D4226417352FFBB68AEAFE2D1A7B46 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C32F4FA4ADE8ABDBFE8BAE3C912CC675 /* OTTOCashSDK.framework */,
+				C3DE8C288662719F827B5F00F644D247 /* Crashlytics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		782DD3013AF9B060C6319374D5D2FFAA /* Frameworks */ = {
+		7B1B6CF47450ACBEDE44D5C5477F8FA7 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				544DF846C9552C851C98232947AC55ED /* Crashlytics.framework */,
+				9D7BDC51BB4EB9A471DA98DAA31DB948 /* OTTOCashSDK */,
 			);
-			name = Frameworks;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		885DD7D2959D96B4F31A02774820C644 /* Targets Support Files */ = {
@@ -225,21 +253,34 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B061F3C45E08B773369DE4B3B50C5774 /* Frameworks */ = {
+		94D785C7194A907AA00F244C7708504A /* Crashlytics */ = {
 			isa = PBXGroup;
 			children = (
-				EC191897AFAF9A421B11A295435BD877 /* Fabric.framework */,
+				1755CF00D625ABEF4CBC4984C67D298C /* ANSCompatibility.h */,
+				EF9715D2B56F21D53F8CF1CDD409D503 /* Answers.h */,
+				A1C6C2E7ED8E7FEC328DB2353187F485 /* CLSAttributes.h */,
+				6C736423ECDE86C4094F5B752166A490 /* CLSLogging.h */,
+				01EF9C97929EC6580CDFBFD97550860A /* CLSReport.h */,
+				343FF74B15CBBCD8183B7F3CEF0B8A52 /* CLSStackFrame.h */,
+				3B2BDAF7340F4C0E7D3ABAE856A21D30 /* Crashlytics.h */,
+				71D4226417352FFBB68AEAFE2D1A7B46 /* Frameworks */,
+				234218BCADD3050D66931ACEFE4743BD /* Support Files */,
 			);
-			name = Frameworks;
+			name = Crashlytics;
+			path = Crashlytics;
 			sourceTree = "<group>";
 		};
-		BCCE179DF5F17B1652F5EFB604A168D3 /* Support Files */ = {
+		9D7BDC51BB4EB9A471DA98DAA31DB948 /* OTTOCashSDK */ = {
 			isa = PBXGroup;
 			children = (
-				215334F34A26623800FCD8E168411F74 /* OTTOCashSDK.xcconfig */,
+				BC30E18BD34FD63964EA263DB7653A8F /* OTTOCashSDK.h */,
+				8D0EB6C1B28CC5368324C1B46C652B97 /* OTTOCashSDK-Swift.h */,
+				5D4D1E80DC7C1759A5AB7588C47D2B3B /* Frameworks */,
+				03730D3453394BACAD8EB0B6AD50515B /* Pod */,
+				5391DBFB0B62552C2F6A3B9571DE5C2E /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/OTTOCashSDK";
+			name = OTTOCashSDK;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -270,8 +311,9 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7B1B6CF47450ACBEDE44D5C5477F8FA7 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				EF3F8430F8333B4D71B563715BFC835A /* Pods */,
+				4D6A2EF714EDCBB29091A94D88D6B7E4 /* Pods */,
 				E12A29A12C6D2ED83F18B839C2FBAEB7 /* Products */,
 				885DD7D2959D96B4F31A02774820C644 /* Targets Support Files */,
 			);
@@ -294,32 +336,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E4208AAC2C1B185BE895EC6E03999E15 /* OTTOCashSDK */ = {
+		FCD3078F4044A7CED7373FEBF5FE1E9F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				71A527FDF5C5DBF7F9456DAC80EFFD53 /* OTTOCashSDK.h */,
-				BF1708EBCF0D6E5D5C3D410F75DC6E6F /* OTTOCashSDK-Swift.h */,
-				6779F3F069DF87F35631CCE4086E19DA /* Frameworks */,
-				BCCE179DF5F17B1652F5EFB604A168D3 /* Support Files */,
-			);
-			name = OTTOCashSDK;
-			path = OTTOCashSDK;
-			sourceTree = "<group>";
-		};
-		EF3F8430F8333B4D71B563715BFC835A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3FF6DD811C2A95C2A40E7A47428A4498 /* Crashlytics */,
-				140D16F62E1742846DDC9A8BAF888534 /* Fabric */,
-				E4208AAC2C1B185BE895EC6E03999E15 /* OTTOCashSDK */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		FB11FADE5666A592705C22B300151FD9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				050D8DFEF71A337413507EA1AC95786A /* Fabric.xcconfig */,
+				461537160910D4E39172A3ADECDBB5DE /* Fabric.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Fabric";
@@ -490,7 +510,7 @@
 /* Begin XCBuildConfiguration section */
 		1440B6B17A62AC5ECE1C3FF6D4FBC345 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 215334F34A26623800FCD8E168411F74 /* OTTOCashSDK.xcconfig */;
+			baseConfigurationReference = F8ED49CA6B9D0C1DA0FAB25E240CE05B /* OTTOCashSDK.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -571,7 +591,7 @@
 		};
 		578CCDB7ECFF27284CDEBB2A702A75E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 215334F34A26623800FCD8E168411F74 /* OTTOCashSDK.xcconfig */;
+			baseConfigurationReference = F8ED49CA6B9D0C1DA0FAB25E240CE05B /* OTTOCashSDK.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -664,7 +684,7 @@
 		};
 		8548AC522B2EFC8F87C010366841E234 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 050D8DFEF71A337413507EA1AC95786A /* Fabric.xcconfig */;
+			baseConfigurationReference = 461537160910D4E39172A3ADECDBB5DE /* Fabric.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -778,7 +798,7 @@
 		};
 		CDFCF98E7F9FB4406E116ED6500B19DD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26DAA5FC5E56F83D5E630FDD094B9F69 /* Crashlytics.xcconfig */;
+			baseConfigurationReference = 25CDD5105AED0CCF798A9846632E1652 /* Crashlytics.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -795,7 +815,7 @@
 		};
 		CE6F1011AE3E3CA432D5EB7085D197E9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 050D8DFEF71A337413507EA1AC95786A /* Fabric.xcconfig */;
+			baseConfigurationReference = 461537160910D4E39172A3ADECDBB5DE /* Fabric.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -812,7 +832,7 @@
 		};
 		D43B3DDF5D3BF6757ED79FD2D914D7C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 26DAA5FC5E56F83D5E630FDD094B9F69 /* Crashlytics.xcconfig */;
+			baseConfigurationReference = 25CDD5105AED0CCF798A9846632E1652 /* Crashlytics.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
