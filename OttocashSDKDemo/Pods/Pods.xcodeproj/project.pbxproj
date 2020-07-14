@@ -9,7 +9,7 @@
 /* Begin PBXAggregateTarget section */
 		ABB048B191245233986A7CD75FE412A5 /* Fabric */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 13B185864087F75D556AC109B2D70BF7 /* Build configuration list for PBXAggregateTarget "Fabric" */;
+			buildConfigurationList = CFEF8104E9F76F4E51E44B80D6660364 /* Build configuration list for PBXAggregateTarget "Fabric" */;
 			buildPhases = (
 			);
 			dependencies = (
@@ -18,11 +18,11 @@
 		};
 		C0E41540D6862472ED7F2FA11669BE1F /* Crashlytics */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = A084C0089544D8EEE7DA4C6D8EEEF9ED /* Build configuration list for PBXAggregateTarget "Crashlytics" */;
+			buildConfigurationList = 2FD49999DA0C737E43F6B26D46E2798D /* Build configuration list for PBXAggregateTarget "Crashlytics" */;
 			buildPhases = (
 			);
 			dependencies = (
-				C9CEFEFAAAEDB8CD947737FA56C849D4 /* PBXTargetDependency */,
+				2AFB9821FCE39F8FE34C0E15B04C5FDA /* PBXTargetDependency */,
 			);
 			name = Crashlytics;
 		};
@@ -38,177 +38,204 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		4C8EDC306980F9FE9BB55DD427150014 /* Pods-OttocashSDKDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DFC5E3504248582748FA562AAA182E7 /* Pods-OttocashSDKDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5DE21EA8E43FC95ABDE4FCCC089B0DC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		6F0EF971586A6910B068FA7CBC531B6E /* Pods-OttocashSDKDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7829E3543D442F9385D8B9A67E14A07 /* Pods-OttocashSDKDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C0BBC970961FA3257F900B89455AB71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		86F9E6DE8C29AE5BC488F889B017DEC1 /* Pods-OttocashSDKDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5078EC9F70DAEECAB7632C0AECEE47C8 /* Pods-OttocashSDKDemoUITests-dummy.m */; };
-		DA8A6A757EDD9F51284BC8E151C1E51D /* Pods-OttocashSDKDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C73D02727CFC0EFAB19A4DE1C11AFC0 /* Pods-OttocashSDKDemo-dummy.m */; };
+		7F12D966BF4DC718B75094E3C940B095 /* Pods-OttocashSDKDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5078EC9F70DAEECAB7632C0AECEE47C8 /* Pods-OttocashSDKDemoUITests-dummy.m */; };
+		8185D5F4B660B34CB529DB299E6B0129 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		973FCAADA80FE7B1942A981B6546179B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9A521209B4939BD258AFCF404630F7BB /* Pods-OttocashSDKDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7829E3543D442F9385D8B9A67E14A07 /* Pods-OttocashSDKDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDA14149A9AA623C3FEC20A2DA9F133B /* Pods-OttocashSDKDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DFC5E3504248582748FA562AAA182E7 /* Pods-OttocashSDKDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFDB2597908E5B40AA1D5B7BA4FACE03 /* Pods-OttocashSDKDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C73D02727CFC0EFAB19A4DE1C11AFC0 /* Pods-OttocashSDKDemo-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4C01F51C8FCE1D4012B95C8B5CDC65EC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C0E41540D6862472ED7F2FA11669BE1F;
-			remoteInfo = Crashlytics;
-		};
-		4E9767AB86A65D07A69CC8F5A2C1491D /* PBXContainerItemProxy */ = {
+		2AABB0FD3EE5FEDE329BE835AC46D9CF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = ABB048B191245233986A7CD75FE412A5;
 			remoteInfo = Fabric;
 		};
-		6173A45D6BB41AD46F6C023C1A513658 /* PBXContainerItemProxy */ = {
+		6CF88901C3F3BE8617AE16B0BE71846F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 47FCD8CD8A485FD9CC1F4718BA6A10EC;
 			remoteInfo = "Pods-OttocashSDKDemo";
 		};
-		68BF595DA343B1BDE4407E6F1335625D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D0F81E5744D0B6B6CBE55EF9F97A0B77;
-			remoteInfo = OTTOCashSDK;
-		};
-		D465047540D12FD9D95291AE82A76DB9 /* PBXContainerItemProxy */ = {
+		6FCA63B0611AF924C0771C1468122960 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = ABB048B191245233986A7CD75FE412A5;
 			remoteInfo = Fabric;
 		};
+		801B8590601336097B4C140ACF531BDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0E41540D6862472ED7F2FA11669BE1F;
+			remoteInfo = Crashlytics;
+		};
+		D7CBDD4E16D26AA789C3CEF859685CA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0F81E5744D0B6B6CBE55EF9F97A0B77;
+			remoteInfo = OTTOCashSDK;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		01006B2301248D7A62F916C31DF2FCAE /* Pods-OttocashSDKDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OttocashSDKDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		01EF9C97929EC6580CDFBFD97550860A /* CLSReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSReport.h; path = iOS/Crashlytics.framework/Headers/CLSReport.h; sourceTree = "<group>"; };
+		016EEF5C9C4C0FF29843B7ECDBC71CFC /* OTTOCashSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OTTOCashSDK.h; sourceTree = "<group>"; };
+		063CFCF6AB8BD21E0AE7437BCD6512DA /* Crashlytics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Crashlytics.debug.xcconfig; sourceTree = "<group>"; };
 		0EA6B924C67BC2C1082B7F6CEDBD74F3 /* Pods-OttocashSDKDemoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OttocashSDKDemoUITests-Info.plist"; sourceTree = "<group>"; };
-		152C4A832A81E7DEE53C720A6D0763D6 /* OttocashSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OttocashSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1755CF00D625ABEF4CBC4984C67D298C /* ANSCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSCompatibility.h; path = iOS/Crashlytics.framework/Headers/ANSCompatibility.h; sourceTree = "<group>"; };
-		25CDD5105AED0CCF798A9846632E1652 /* Crashlytics.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Crashlytics.xcconfig; sourceTree = "<group>"; };
+		1216E61FE7AA6022AE9A05BD4DA4AFC9 /* OTTOCashSDK-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTTOCashSDK-Swift.h"; sourceTree = "<group>"; };
+		26365E2A6A409E10D2CFEADA2D2C377E /* OTTOCashSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTTOCashSDK.release.xcconfig; sourceTree = "<group>"; };
 		2D78606A5F70E3750C5515227492F157 /* Pods_OttocashSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OttocashSDKDemo.framework; path = "Pods-OttocashSDKDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		343FF74B15CBBCD8183B7F3CEF0B8A52 /* CLSStackFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSStackFrame.h; path = iOS/Crashlytics.framework/Headers/CLSStackFrame.h; sourceTree = "<group>"; };
 		3A26CE4DFE9AAD60AC2106323C1AAE37 /* Pods-OttocashSDKDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OttocashSDKDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3B2BDAF7340F4C0E7D3ABAE856A21D30 /* Crashlytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Crashlytics.h; path = iOS/Crashlytics.framework/Headers/Crashlytics.h; sourceTree = "<group>"; };
-		461537160910D4E39172A3ADECDBB5DE /* Fabric.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Fabric.xcconfig; sourceTree = "<group>"; };
-		49BA62A1A1AF641424298F314F5F2254 /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = iOS/Fabric.framework/Headers/FABAttributes.h; sourceTree = "<group>"; };
+		44F3BD5BF0EC5A6AF1F9CD4E2043A84E /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
 		5078EC9F70DAEECAB7632C0AECEE47C8 /* Pods-OttocashSDKDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OttocashSDKDemoUITests-dummy.m"; sourceTree = "<group>"; };
-		56C2C5D7A44741B71F314591DAA0EFA6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		508B97745EED96780D7E7FAEE0F8FBBE /* OttocashSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OttocashSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5E207A5E582BE03AC8697F813F1FDBD1 /* Pods-OttocashSDKDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OttocashSDKDemoUITests.modulemap"; sourceTree = "<group>"; };
 		5E8B5623E7E80499688D4AB2DF68BA3D /* Pods-OttocashSDKDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OttocashSDKDemo.modulemap"; sourceTree = "<group>"; };
+		5F07B6772747F66B74E05DFA8500738D /* Crashlytics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Crashlytics.release.xcconfig; sourceTree = "<group>"; };
+		65FE5D82000439AE178C1341DDB7CCFC /* Crashlytics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Crashlytics.h; path = iOS/Crashlytics.framework/Headers/Crashlytics.h; sourceTree = "<group>"; };
 		6A064BE19464CCFC8F094BE3099F5960 /* Pods-OttocashSDKDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OttocashSDKDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6AAF96FE9F36E63CD36E59A7AE15BE1C /* Pods-OttocashSDKDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OttocashSDKDemo-frameworks.sh"; sourceTree = "<group>"; };
-		6C736423ECDE86C4094F5B752166A490 /* CLSLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSLogging.h; path = iOS/Crashlytics.framework/Headers/CLSLogging.h; sourceTree = "<group>"; };
-		7561AE73EFCFC7A12E9BA438357EF07A /* OTTOCashSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OTTOCashSDK.framework; sourceTree = "<group>"; };
+		723F1A0E7CB130414B4FE58CF76FDF27 /* OTTOCashSDK-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTTOCashSDK-Swift.h"; sourceTree = "<group>"; };
 		7C73D02727CFC0EFAB19A4DE1C11AFC0 /* Pods-OttocashSDKDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OttocashSDKDemo-dummy.m"; sourceTree = "<group>"; };
-		88B72E29B4D0D609360F97405C741E60 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = iOS/Fabric.framework; sourceTree = "<group>"; };
+		80BEEB32DF41BDE8C4FE186C7141F117 /* CLSReport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSReport.h; path = iOS/Crashlytics.framework/Headers/CLSReport.h; sourceTree = "<group>"; };
+		80D172859BB203572C08C2DFE410B53B /* CLSAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSAttributes.h; path = iOS/Crashlytics.framework/Headers/CLSAttributes.h; sourceTree = "<group>"; };
 		89A90C6D294A35FB949D847DDC7885E4 /* Pods-OttocashSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OttocashSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		8D0EB6C1B28CC5368324C1B46C652B97 /* OTTOCashSDK-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OTTOCashSDK-Swift.h"; path = "OTTOCashSDK.framework/Headers/OTTOCashSDK-Swift.h"; sourceTree = "<group>"; };
+		8B1F324E8CA1A6FBDA3EC56E9AEBAC51 /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = iOS/Crashlytics.framework/Headers/Answers.h; sourceTree = "<group>"; };
+		986D45E5FC5876D22DB404B85A119841 /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
+		9C30A6BC4C0F9CDEABC677792609BE63 /* OTTOCashSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OTTOCashSDK.framework; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DFC5E3504248582748FA562AAA182E7 /* Pods-OttocashSDKDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OttocashSDKDemoUITests-umbrella.h"; sourceTree = "<group>"; };
-		A1C6C2E7ED8E7FEC328DB2353187F485 /* CLSAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSAttributes.h; path = iOS/Crashlytics.framework/Headers/CLSAttributes.h; sourceTree = "<group>"; };
+		9E82A828BB1C1510AD134BFE4B5404E3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		A44D5B3432D28F9E5A2C0C495003E6FB /* Pods-OttocashSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OttocashSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
 		A6A78B0E90C1D35DDE0A50FD3AADAD50 /* Pods-OttocashSDKDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OttocashSDKDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A7829E3543D442F9385D8B9A67E14A07 /* Pods-OttocashSDKDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OttocashSDKDemo-umbrella.h"; sourceTree = "<group>"; };
-		BA19F0EEA49B20526FD490DC1974D740 /* Fabric.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Fabric.h; path = iOS/Fabric.framework/Headers/Fabric.h; sourceTree = "<group>"; };
+		B3827110D4A4E85B7F95BF1ECA8CB292 /* Fabric.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Fabric.release.xcconfig; sourceTree = "<group>"; };
+		B47F5F449F5E86262CBCD62486826C66 /* OTTOCashSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTTOCashSDK.debug.xcconfig; sourceTree = "<group>"; };
+		B670544DCF4E4EC3F84F37F3B8A983E9 /* Fabric.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Fabric.debug.xcconfig; sourceTree = "<group>"; };
 		BA909CB963AD8E4C38DA95722A32C57D /* Pods_OttocashSDKDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OttocashSDKDemoUITests.framework; path = "Pods-OttocashSDKDemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC30E18BD34FD63964EA263DB7653A8F /* OTTOCashSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OTTOCashSDK.h; path = OTTOCashSDK.framework/Headers/OTTOCashSDK.h; sourceTree = "<group>"; };
-		C3DE8C288662719F827B5F00F644D247 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = iOS/Crashlytics.framework; sourceTree = "<group>"; };
+		BDD8E37495BD4E1FC4869481B42D9036 /* OTTOCashSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OTTOCashSDK.h; sourceTree = "<group>"; };
+		BE92DF3CE7B770037F3AC3CFE07D0908 /* ANSCompatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ANSCompatibility.h; path = iOS/Crashlytics.framework/Headers/ANSCompatibility.h; sourceTree = "<group>"; };
 		DA964F29119FBBE7877864531E9DDA40 /* Pods-OttocashSDKDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OttocashSDKDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E72987235CAAC071958AEDCB7AD85110 /* Pods-OttocashSDKDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OttocashSDKDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EF9715D2B56F21D53F8CF1CDD409D503 /* Answers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Answers.h; path = iOS/Crashlytics.framework/Headers/Answers.h; sourceTree = "<group>"; };
-		F8ED49CA6B9D0C1DA0FAB25E240CE05B /* OTTOCashSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTTOCashSDK.xcconfig; sourceTree = "<group>"; };
+		EB821687217E5F48026F7884953D6116 /* FABAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FABAttributes.h; path = iOS/Fabric.framework/Headers/FABAttributes.h; sourceTree = "<group>"; };
+		F11D013EC94ED28B95E82A7965E484FE /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = iOS/Crashlytics.framework; sourceTree = "<group>"; };
 		F9BB7ED3714C51A45F79B4E66A84DAEE /* Pods-OttocashSDKDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OttocashSDKDemo-Info.plist"; sourceTree = "<group>"; };
+		F9CD45E202039ED5CFFCA0D132820EB1 /* CLSStackFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSStackFrame.h; path = iOS/Crashlytics.framework/Headers/CLSStackFrame.h; sourceTree = "<group>"; };
+		FF4D517D1F025EB4405C4123EA326868 /* CLSLogging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLSLogging.h; path = iOS/Crashlytics.framework/Headers/CLSLogging.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		13539CB41426083EB8A620200AE4A34D /* Frameworks */ = {
+		24E0241B6908123F77C33CCF788C362F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C0BBC970961FA3257F900B89455AB71 /* Foundation.framework in Frameworks */,
+				8185D5F4B660B34CB529DB299E6B0129 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8890246634BCBEC695AB43F1E28959FC /* Frameworks */ = {
+		ECDF0A559FA51B0961F68610D295916E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DE21EA8E43FC95ABDE4FCCC089B0DC4 /* Foundation.framework in Frameworks */,
+				973FCAADA80FE7B1942A981B6546179B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03730D3453394BACAD8EB0B6AD50515B /* Pod */ = {
+		00EF60DBE33D1253F0C08634DC2BCFA0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				56C2C5D7A44741B71F314591DAA0EFA6 /* LICENSE */,
-				152C4A832A81E7DEE53C720A6D0763D6 /* OttocashSDK.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		12DDF81CBF331557CE4969A188171F16 /* Fabric */ = {
-			isa = PBXGroup;
-			children = (
-				49BA62A1A1AF641424298F314F5F2254 /* FABAttributes.h */,
-				BA19F0EEA49B20526FD490DC1974D740 /* Fabric.h */,
-				29868B33119649758BE16107CA127C05 /* Frameworks */,
-				FCD3078F4044A7CED7373FEBF5FE1E9F /* Support Files */,
-			);
-			name = Fabric;
-			path = Fabric;
-			sourceTree = "<group>";
-		};
-		234218BCADD3050D66931ACEFE4743BD /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				25CDD5105AED0CCF798A9846632E1652 /* Crashlytics.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Crashlytics";
-			sourceTree = "<group>";
-		};
-		29868B33119649758BE16107CA127C05 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				88B72E29B4D0D609360F97405C741E60 /* Fabric.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		4D6A2EF714EDCBB29091A94D88D6B7E4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				94D785C7194A907AA00F244C7708504A /* Crashlytics */,
-				12DDF81CBF331557CE4969A188171F16 /* Fabric */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		5391DBFB0B62552C2F6A3B9571DE5C2E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F8ED49CA6B9D0C1DA0FAB25E240CE05B /* OTTOCashSDK.xcconfig */,
+				B47F5F449F5E86262CBCD62486826C66 /* OTTOCashSDK.debug.xcconfig */,
+				26365E2A6A409E10D2CFEADA2D2C377E /* OTTOCashSDK.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "OttocashSDKDemo/Pods/Target Support Files/OTTOCashSDK";
 			sourceTree = "<group>";
 		};
-		5D4D1E80DC7C1759A5AB7588C47D2B3B /* Frameworks */ = {
+		0D6D2169B9F710D43D223E79BDCBCCD1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				7561AE73EFCFC7A12E9BA438357EF07A /* OTTOCashSDK.framework */,
+				B670544DCF4E4EC3F84F37F3B8A983E9 /* Fabric.debug.xcconfig */,
+				B3827110D4A4E85B7F95BF1ECA8CB292 /* Fabric.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Fabric";
+			sourceTree = "<group>";
+		};
+		1C573DF4E3766BFEE792E57B8D94B96B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9E82A828BB1C1510AD134BFE4B5404E3 /* LICENSE */,
+				508B97745EED96780D7E7FAEE0F8FBBE /* OttocashSDK.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		258E554DC5D2B6211CDB251058727907 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F11D013EC94ED28B95E82A7965E484FE /* Crashlytics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		259E92796290045DE37164DC3D3B83F8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				063CFCF6AB8BD21E0AE7437BCD6512DA /* Crashlytics.debug.xcconfig */,
+				5F07B6772747F66B74E05DFA8500738D /* Crashlytics.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Crashlytics";
+			sourceTree = "<group>";
+		};
+		40B507A3A49DB0A2F3DE2E51D5E03C19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44F3BD5BF0EC5A6AF1F9CD4E2043A84E /* Fabric.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43AC0CA92A67539E5FBA01DE4C96727B /* OTTOCashSDK.framework.bak.framework */ = {
+			isa = PBXGroup;
+			children = (
+				D674F2A5717C28B2FAEB9DA50EDA4722 /* Headers */,
+			);
+			name = OTTOCashSDK.framework.bak.framework;
+			path = OTTOCashSDK.framework.bak.framework;
+			sourceTree = "<group>";
+		};
+		4D6A2EF714EDCBB29091A94D88D6B7E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1BF83DDC852AC0DF3F6E1C9544A959C /* Crashlytics */,
+				9FB2006EA8EC2CA58B08C0BC7C6A45F1 /* Fabric */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5A924D03A5D3CA7EB692481C1846786C /* OTTOCashSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E36169A402F9C4A8FDA99A942F696ACD /* Frameworks */,
+				DC805FD9C65BFEE1FFD944BE45803C20 /* OTTOCashSDK.framework */,
+				43AC0CA92A67539E5FBA01DE4C96727B /* OTTOCashSDK.framework.bak.framework */,
+				1C573DF4E3766BFEE792E57B8D94B96B /* Pod */,
+				00EF60DBE33D1253F0C08634DC2BCFA0 /* Support Files */,
+			);
+			name = OTTOCashSDK;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		654021545D55F904538D54953E147F09 /* Pods-OttocashSDKDemo */ = {
@@ -228,18 +255,10 @@
 			path = "Target Support Files/Pods-OttocashSDKDemo";
 			sourceTree = "<group>";
 		};
-		71D4226417352FFBB68AEAFE2D1A7B46 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C3DE8C288662719F827B5F00F644D247 /* Crashlytics.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		7B1B6CF47450ACBEDE44D5C5477F8FA7 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9D7BDC51BB4EB9A471DA98DAA31DB948 /* OTTOCashSDK */,
+				5A924D03A5D3CA7EB692481C1846786C /* OTTOCashSDK */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -253,34 +272,26 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		94D785C7194A907AA00F244C7708504A /* Crashlytics */ = {
+		9FB2006EA8EC2CA58B08C0BC7C6A45F1 /* Fabric */ = {
 			isa = PBXGroup;
 			children = (
-				1755CF00D625ABEF4CBC4984C67D298C /* ANSCompatibility.h */,
-				EF9715D2B56F21D53F8CF1CDD409D503 /* Answers.h */,
-				A1C6C2E7ED8E7FEC328DB2353187F485 /* CLSAttributes.h */,
-				6C736423ECDE86C4094F5B752166A490 /* CLSLogging.h */,
-				01EF9C97929EC6580CDFBFD97550860A /* CLSReport.h */,
-				343FF74B15CBBCD8183B7F3CEF0B8A52 /* CLSStackFrame.h */,
-				3B2BDAF7340F4C0E7D3ABAE856A21D30 /* Crashlytics.h */,
-				71D4226417352FFBB68AEAFE2D1A7B46 /* Frameworks */,
-				234218BCADD3050D66931ACEFE4743BD /* Support Files */,
+				EB821687217E5F48026F7884953D6116 /* FABAttributes.h */,
+				986D45E5FC5876D22DB404B85A119841 /* Fabric.h */,
+				40B507A3A49DB0A2F3DE2E51D5E03C19 /* Frameworks */,
+				0D6D2169B9F710D43D223E79BDCBCCD1 /* Support Files */,
 			);
-			name = Crashlytics;
-			path = Crashlytics;
+			name = Fabric;
+			path = Fabric;
 			sourceTree = "<group>";
 		};
-		9D7BDC51BB4EB9A471DA98DAA31DB948 /* OTTOCashSDK */ = {
+		A9B2A4FFDEFF3E152846F42617D78E4F /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				BC30E18BD34FD63964EA263DB7653A8F /* OTTOCashSDK.h */,
-				8D0EB6C1B28CC5368324C1B46C652B97 /* OTTOCashSDK-Swift.h */,
-				5D4D1E80DC7C1759A5AB7588C47D2B3B /* Frameworks */,
-				03730D3453394BACAD8EB0B6AD50515B /* Pod */,
-				5391DBFB0B62552C2F6A3B9571DE5C2E /* Support Files */,
+				BDD8E37495BD4E1FC4869481B42D9036 /* OTTOCashSDK.h */,
+				1216E61FE7AA6022AE9A05BD4DA4AFC9 /* OTTOCashSDK-Swift.h */,
 			);
-			name = OTTOCashSDK;
-			path = ../..;
+			name = Headers;
+			path = Headers;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -327,6 +338,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D674F2A5717C28B2FAEB9DA50EDA4722 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				016EEF5C9C4C0FF29843B7ECDBC71CFC /* OTTOCashSDK.h */,
+				723F1A0E7CB130414B4FE58CF76FDF27 /* OTTOCashSDK-Swift.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		DC805FD9C65BFEE1FFD944BE45803C20 /* OTTOCashSDK.framework */ = {
+			isa = PBXGroup;
+			children = (
+				A9B2A4FFDEFF3E152846F42617D78E4F /* Headers */,
+			);
+			name = OTTOCashSDK.framework;
+			path = OTTOCashSDK.framework;
+			sourceTree = "<group>";
+		};
 		E12A29A12C6D2ED83F18B839C2FBAEB7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -336,31 +366,47 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FCD3078F4044A7CED7373FEBF5FE1E9F /* Support Files */ = {
+		E36169A402F9C4A8FDA99A942F696ACD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				461537160910D4E39172A3ADECDBB5DE /* Fabric.xcconfig */,
+				9C30A6BC4C0F9CDEABC677792609BE63 /* OTTOCashSDK.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/Fabric";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1BF83DDC852AC0DF3F6E1C9544A959C /* Crashlytics */ = {
+			isa = PBXGroup;
+			children = (
+				BE92DF3CE7B770037F3AC3CFE07D0908 /* ANSCompatibility.h */,
+				8B1F324E8CA1A6FBDA3EC56E9AEBAC51 /* Answers.h */,
+				80D172859BB203572C08C2DFE410B53B /* CLSAttributes.h */,
+				FF4D517D1F025EB4405C4123EA326868 /* CLSLogging.h */,
+				80BEEB32DF41BDE8C4FE186C7141F117 /* CLSReport.h */,
+				F9CD45E202039ED5CFFCA0D132820EB1 /* CLSStackFrame.h */,
+				65FE5D82000439AE178C1341DDB7CCFC /* Crashlytics.h */,
+				258E554DC5D2B6211CDB251058727907 /* Frameworks */,
+				259E92796290045DE37164DC3D3B83F8 /* Support Files */,
+			);
+			name = Crashlytics;
+			path = Crashlytics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1F08005104BC705F317ED987267116A9 /* Headers */ = {
+		2B406304B48D306E28D0E71030AC9375 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C8EDC306980F9FE9BB55DD427150014 /* Pods-OttocashSDKDemoUITests-umbrella.h in Headers */,
+				FDA14149A9AA623C3FEC20A2DA9F133B /* Pods-OttocashSDKDemoUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A75A944063DD4FEBF92390F5139C7109 /* Headers */ = {
+		FA720523B70AC3DC0A68081A6054A0E7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F0EF971586A6910B068FA7CBC531B6E /* Pods-OttocashSDKDemo-umbrella.h in Headers */,
+				9A521209B4939BD258AFCF404630F7BB /* Pods-OttocashSDKDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,19 +415,19 @@
 /* Begin PBXNativeTarget section */
 		47FCD8CD8A485FD9CC1F4718BA6A10EC /* Pods-OttocashSDKDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 325D0A896029B0CFADDD750FC3380BD5 /* Build configuration list for PBXNativeTarget "Pods-OttocashSDKDemo" */;
+			buildConfigurationList = 622EF422B1D9DC65B2256C8000F60E99 /* Build configuration list for PBXNativeTarget "Pods-OttocashSDKDemo" */;
 			buildPhases = (
-				A75A944063DD4FEBF92390F5139C7109 /* Headers */,
-				081619094857824FD6EB183C76405662 /* Sources */,
-				8890246634BCBEC695AB43F1E28959FC /* Frameworks */,
-				7E34B1993F646BA33D895F45D60EFD72 /* Resources */,
+				FA720523B70AC3DC0A68081A6054A0E7 /* Headers */,
+				7FAD025724ED7309846543E0AA79DEE0 /* Sources */,
+				ECDF0A559FA51B0961F68610D295916E /* Frameworks */,
+				4447EA9047CFDCDE74F49CE83EB1D313 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3F9BCF0B350F788331650BA5694BD684 /* PBXTargetDependency */,
-				D205DB17577163D1517110C7856D4AEB /* PBXTargetDependency */,
-				14CF6F91B88B63A11610745E5B5967AF /* PBXTargetDependency */,
+				E2B13F25808C71FE3DE21AD372BEDA02 /* PBXTargetDependency */,
+				C68F2C42EFAE9A9D75C488357E31F95F /* PBXTargetDependency */,
+				C5D70948219D3157356B1995FB3708FA /* PBXTargetDependency */,
 			);
 			name = "Pods-OttocashSDKDemo";
 			productName = "Pods-OttocashSDKDemo";
@@ -390,17 +436,17 @@
 		};
 		57B7F8805DB17014CFDBCA9933A69F69 /* Pods-OttocashSDKDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3C25D9482CA2CDE1411E7D60ECA1E55D /* Build configuration list for PBXNativeTarget "Pods-OttocashSDKDemoUITests" */;
+			buildConfigurationList = 84DD6B2B883A33553BF951106764DAF8 /* Build configuration list for PBXNativeTarget "Pods-OttocashSDKDemoUITests" */;
 			buildPhases = (
-				1F08005104BC705F317ED987267116A9 /* Headers */,
-				3AC82699941BE0DC59ED285D1C455DA0 /* Sources */,
-				13539CB41426083EB8A620200AE4A34D /* Frameworks */,
-				41CB34D1BAD3F2A2DE29108579A48253 /* Resources */,
+				2B406304B48D306E28D0E71030AC9375 /* Headers */,
+				B8CE0E4B30E0BA82896D23201935BA30 /* Sources */,
+				24E0241B6908123F77C33CCF788C362F /* Frameworks */,
+				2F2CAF6EC448E2E25D054E36AB6CEC0C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				21434D36F511A7E6BFA73178F3636894 /* PBXTargetDependency */,
+				7B07FA069283F7AAAFD5A50FECE2B6C8 /* PBXTargetDependency */,
 			);
 			name = "Pods-OttocashSDKDemoUITests";
 			productName = "Pods-OttocashSDKDemoUITests";
@@ -439,14 +485,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		41CB34D1BAD3F2A2DE29108579A48253 /* Resources */ = {
+		2F2CAF6EC448E2E25D054E36AB6CEC0C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E34B1993F646BA33D895F45D60EFD72 /* Resources */ = {
+		4447EA9047CFDCDE74F49CE83EB1D313 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -456,65 +502,120 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		081619094857824FD6EB183C76405662 /* Sources */ = {
+		7FAD025724ED7309846543E0AA79DEE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA8A6A757EDD9F51284BC8E151C1E51D /* Pods-OttocashSDKDemo-dummy.m in Sources */,
+				FFDB2597908E5B40AA1D5B7BA4FACE03 /* Pods-OttocashSDKDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3AC82699941BE0DC59ED285D1C455DA0 /* Sources */ = {
+		B8CE0E4B30E0BA82896D23201935BA30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86F9E6DE8C29AE5BC488F889B017DEC1 /* Pods-OttocashSDKDemoUITests-dummy.m in Sources */,
+				7F12D966BF4DC718B75094E3C940B095 /* Pods-OttocashSDKDemoUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		14CF6F91B88B63A11610745E5B5967AF /* PBXTargetDependency */ = {
+		2AFB9821FCE39F8FE34C0E15B04C5FDA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = OTTOCashSDK;
-			target = D0F81E5744D0B6B6CBE55EF9F97A0B77 /* OTTOCashSDK */;
-			targetProxy = 68BF595DA343B1BDE4407E6F1335625D /* PBXContainerItemProxy */;
+			name = Fabric;
+			target = ABB048B191245233986A7CD75FE412A5 /* Fabric */;
+			targetProxy = 6FCA63B0611AF924C0771C1468122960 /* PBXContainerItemProxy */;
 		};
-		21434D36F511A7E6BFA73178F3636894 /* PBXTargetDependency */ = {
+		7B07FA069283F7AAAFD5A50FECE2B6C8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-OttocashSDKDemo";
 			target = 47FCD8CD8A485FD9CC1F4718BA6A10EC /* Pods-OttocashSDKDemo */;
-			targetProxy = 6173A45D6BB41AD46F6C023C1A513658 /* PBXContainerItemProxy */;
+			targetProxy = 6CF88901C3F3BE8617AE16B0BE71846F /* PBXContainerItemProxy */;
 		};
-		3F9BCF0B350F788331650BA5694BD684 /* PBXTargetDependency */ = {
+		C5D70948219D3157356B1995FB3708FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OTTOCashSDK;
+			target = D0F81E5744D0B6B6CBE55EF9F97A0B77 /* OTTOCashSDK */;
+			targetProxy = D7CBDD4E16D26AA789C3CEF859685CA2 /* PBXContainerItemProxy */;
+		};
+		C68F2C42EFAE9A9D75C488357E31F95F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Fabric;
+			target = ABB048B191245233986A7CD75FE412A5 /* Fabric */;
+			targetProxy = 2AABB0FD3EE5FEDE329BE835AC46D9CF /* PBXContainerItemProxy */;
+		};
+		E2B13F25808C71FE3DE21AD372BEDA02 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Crashlytics;
 			target = C0E41540D6862472ED7F2FA11669BE1F /* Crashlytics */;
-			targetProxy = 4C01F51C8FCE1D4012B95C8B5CDC65EC /* PBXContainerItemProxy */;
-		};
-		C9CEFEFAAAEDB8CD947737FA56C849D4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Fabric;
-			target = ABB048B191245233986A7CD75FE412A5 /* Fabric */;
-			targetProxy = D465047540D12FD9D95291AE82A76DB9 /* PBXContainerItemProxy */;
-		};
-		D205DB17577163D1517110C7856D4AEB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Fabric;
-			target = ABB048B191245233986A7CD75FE412A5 /* Fabric */;
-			targetProxy = 4E9767AB86A65D07A69CC8F5A2C1491D /* PBXContainerItemProxy */;
+			targetProxy = 801B8590601336097B4C140ACF531BDD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1440B6B17A62AC5ECE1C3FF6D4FBC345 /* Release */ = {
+		0A674BD51A94D12883CB6763B2EA60BC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8ED49CA6B9D0C1DA0FAB25E240CE05B /* OTTOCashSDK.xcconfig */;
+			baseConfigurationReference = A44D5B3432D28F9E5A2C0C495003E6FB /* Pods-OttocashSDKDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OttocashSDKDemo/Pods-OttocashSDKDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OttocashSDKDemo/Pods-OttocashSDKDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		14C520500F352F4E3C30C467072226D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B670544DCF4E4EC3F84F37F3B8A983E9 /* Fabric.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18152BA666E9AC2B4C642DFA193D4489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F07B6772747F66B74E05DFA8500738D /* Crashlytics.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -589,13 +690,13 @@
 			};
 			name = Debug;
 		};
-		578CCDB7ECFF27284CDEBB2A702A75E2 /* Debug */ = {
+		1B1532D3B348C5CB60BC5EA9454D1526 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8ED49CA6B9D0C1DA0FAB25E240CE05B /* OTTOCashSDK.xcconfig */;
+			baseConfigurationReference = 063CFCF6AB8BD21E0AE7437BCD6512DA /* Crashlytics.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -605,9 +706,9 @@
 			};
 			name = Debug;
 		};
-		5A891E082D8F17BD8F7DD598CB33D4D4 /* Release */ = {
+		3E86C50DD88195921E32531393B8CF66 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A064BE19464CCFC8F094BE3099F5960 /* Pods-OttocashSDKDemoUITests.release.xcconfig */;
+			baseConfigurationReference = A6A78B0E90C1D35DDE0A50FD3AADAD50 /* Pods-OttocashSDKDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -638,13 +739,46 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
+			name = Debug;
+		};
+		4A04F2E80C45A52054DD24B1506D6F92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26365E2A6A409E10D2CFEADA2D2C377E /* OTTOCashSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
 			name = Release;
 		};
-		765983BE97E8879EC4A47C3BC6EF8442 /* Debug */ = {
+		6633D339FFD8ACC5F4FEDAB289CB9247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3827110D4A4E85B7F95BF1ECA8CB292 /* Fabric.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6ACF596CB1CFAA0A25BB91074907768D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89A90C6D294A35FB949D847DDC7885E4 /* Pods-OttocashSDKDemo.debug.xcconfig */;
 			buildSettings = {
@@ -682,25 +816,9 @@
 			};
 			name = Debug;
 		};
-		8548AC522B2EFC8F87C010366841E234 /* Debug */ = {
+		7ED8F7D3F9B5A3881D42C2B170812FD5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 461537160910D4E39172A3ADECDBB5DE /* Fabric.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		A468428B015FAA088AB2B9CA30E3887F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A6A78B0E90C1D35DDE0A50FD3AADAD50 /* Pods-OttocashSDKDemoUITests.debug.xcconfig */;
+			baseConfigurationReference = 6A064BE19464CCFC8F094BE3099F5960 /* Pods-OttocashSDKDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -731,10 +849,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -796,47 +915,13 @@
 			};
 			name = Release;
 		};
-		CDFCF98E7F9FB4406E116ED6500B19DD /* Release */ = {
+		C4FE74CA3E7AFEE3F4C1105584D28C0F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 25CDD5105AED0CCF798A9846632E1652 /* Crashlytics.xcconfig */;
+			baseConfigurationReference = B47F5F449F5E86262CBCD62486826C66 /* OTTOCashSDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		CE6F1011AE3E3CA432D5EB7085D197E9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 461537160910D4E39172A3ADECDBB5DE /* Fabric.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		D43B3DDF5D3BF6757ED79FD2D914D7C7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 25CDD5105AED0CCF798A9846632E1652 /* Crashlytics.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -846,80 +931,23 @@
 			};
 			name = Debug;
 		};
-		DE9001F7A76560656EA030DE734E5AA8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A44D5B3432D28F9E5A2C0C495003E6FB /* Pods-OttocashSDKDemo.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-OttocashSDKDemo/Pods-OttocashSDKDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OttocashSDKDemo/Pods-OttocashSDKDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13B185864087F75D556AC109B2D70BF7 /* Build configuration list for PBXAggregateTarget "Fabric" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8548AC522B2EFC8F87C010366841E234 /* Debug */,
-				CE6F1011AE3E3CA432D5EB7085D197E9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2FC176AD4C2C40E47CB98327B71623E0 /* Build configuration list for PBXAggregateTarget "OTTOCashSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				578CCDB7ECFF27284CDEBB2A702A75E2 /* Debug */,
-				1440B6B17A62AC5ECE1C3FF6D4FBC345 /* Release */,
+				C4FE74CA3E7AFEE3F4C1105584D28C0F /* Debug */,
+				4A04F2E80C45A52054DD24B1506D6F92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		325D0A896029B0CFADDD750FC3380BD5 /* Build configuration list for PBXNativeTarget "Pods-OttocashSDKDemo" */ = {
+		2FD49999DA0C737E43F6B26D46E2798D /* Build configuration list for PBXAggregateTarget "Crashlytics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				765983BE97E8879EC4A47C3BC6EF8442 /* Debug */,
-				DE9001F7A76560656EA030DE734E5AA8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3C25D9482CA2CDE1411E7D60ECA1E55D /* Build configuration list for PBXNativeTarget "Pods-OttocashSDKDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A468428B015FAA088AB2B9CA30E3887F /* Debug */,
-				5A891E082D8F17BD8F7DD598CB33D4D4 /* Release */,
+				1B1532D3B348C5CB60BC5EA9454D1526 /* Debug */,
+				18152BA666E9AC2B4C642DFA193D4489 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -933,11 +961,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A084C0089544D8EEE7DA4C6D8EEEF9ED /* Build configuration list for PBXAggregateTarget "Crashlytics" */ = {
+		622EF422B1D9DC65B2256C8000F60E99 /* Build configuration list for PBXNativeTarget "Pods-OttocashSDKDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D43B3DDF5D3BF6757ED79FD2D914D7C7 /* Debug */,
-				CDFCF98E7F9FB4406E116ED6500B19DD /* Release */,
+				6ACF596CB1CFAA0A25BB91074907768D /* Debug */,
+				0A674BD51A94D12883CB6763B2EA60BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DD6B2B883A33553BF951106764DAF8 /* Build configuration list for PBXNativeTarget "Pods-OttocashSDKDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E86C50DD88195921E32531393B8CF66 /* Debug */,
+				7ED8F7D3F9B5A3881D42C2B170812FD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFEF8104E9F76F4E51E44B80D6660364 /* Build configuration list for PBXAggregateTarget "Fabric" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14C520500F352F4E3C30C467072226D6 /* Debug */,
+				6633D339FFD8ACC5F4FEDAB289CB9247 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
