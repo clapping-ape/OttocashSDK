@@ -2,7 +2,7 @@ PODS:
   - Crashlytics (3.13.4):
     - Fabric (~> 1.10.2)
   - Fabric (1.10.2)
-  - OTTOCashSDK (0.10.18-beta)
+  - OTTOCashSDK (0.10.20-beta)
 
 DEPENDENCIES:
   - Crashlytics
@@ -21,8 +21,8 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Crashlytics: 2dfd686bcb918dc10ee0e76f7f853fe42c7bd552
   Fabric: 706c8b8098fff96c33c0db69cbf81f9c551d0d74
-  OTTOCashSDK: 183d7b7ff8c200d9711045e2df62f7374c86c79e
+  OTTOCashSDK: 42ae4a98a2c16e3b7bc4fe506f422adf05e32625
 
-PODFILE CHECKSUM: 238b6b01c1c252e72ceccfff6036faffef0a3aee
+PODFILE CHECKSUM: 26435d1a089a288f7adadb6d11d52f2798543fce
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.0.beta.1

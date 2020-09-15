@@ -28,7 +28,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         let userLocation:CLLocation = CLLocation(latitude: 0.0, longitude: 0.0)
         test!.userIdentity(name: "iLotte", location: userLocation.coordinate, phone: "085659791134")
         test?.paymentDelegate = self
-        test!.addWidget(widgetView)
+        DispatchQueue.main.async {
+            self.test!.addWidget(self.widgetView)}
     }
     
     override func viewWillAppear(_ animated: Bool) {

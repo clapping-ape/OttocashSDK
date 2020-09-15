@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4688B808D6C513315C30F5B6 /* Pods_OttocashSDKDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ECEB16AC078A701518C4899 /* Pods_OttocashSDKDemoUITests.framework */; };
-		7CC854490A2B2CA7E67FCB15 /* Pods_OttocashSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC5904234320A022B5B108A /* Pods_OttocashSDKDemo.framework */; };
 		864D2BBB228DBD1900EBA457 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864D2BBA228DBD1900EBA457 /* AppDelegate.swift */; };
-		864D2BBD228DBD1900EBA457 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864D2BBC228DBD1900EBA457 /* ViewController.swift */; };
-		864D2BC0228DBD1900EBA457 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 864D2BBE228DBD1900EBA457 /* Main.storyboard */; };
 		864D2BC2228DBD1A00EBA457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 864D2BC1228DBD1A00EBA457 /* Assets.xcassets */; };
 		864D2BC5228DBD1A00EBA457 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 864D2BC3228DBD1A00EBA457 /* LaunchScreen.storyboard */; };
 		864D2BD0228DBD1A00EBA457 /* OttocashSDKDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864D2BCF228DBD1A00EBA457 /* OttocashSDKDemoUITests.swift */; };
+		A78FEF109C8447184EDF10F6 /* Pods_OttocashSDKDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47A1C2820A1C7D31E5C00990 /* Pods_OttocashSDKDemoUITests.framework */; };
+		BB4A10C138FCBBBA732A2199 /* Pods_OttocashSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3793CC327EADADF51D16D506 /* Pods_OttocashSDKDemo.framework */; };
+		FE056741250F4BAF00CA3392 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE056740250F4BAF00CA3392 /* Main.storyboard */; };
+		FE056743250F4BCB00CA3392 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE056742250F4BCB00CA3392 /* AuthViewController.swift */; };
+		FE056745250F4BCF00CA3392 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE056744250F4BCF00CA3392 /* ViewController.swift */; };
+		FE056747250F4BE000CA3392 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE056746250F4BE000CA3392 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,22 +30,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0AC5904234320A022B5B108A /* Pods_OttocashSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OttocashSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E2FB1734CD4E2EBF916AF97 /* Pods-OttocashSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OttocashSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-OttocashSDKDemo/Pods-OttocashSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		4ECEB16AC078A701518C4899 /* Pods_OttocashSDKDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OttocashSDKDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3793CC327EADADF51D16D506 /* Pods_OttocashSDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OttocashSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47A1C2820A1C7D31E5C00990 /* Pods_OttocashSDKDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OttocashSDKDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		864D2BB7228DBD1900EBA457 /* OttocashSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OttocashSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		864D2BBA228DBD1900EBA457 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		864D2BBC228DBD1900EBA457 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		864D2BBF228DBD1900EBA457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		864D2BC1228DBD1A00EBA457 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		864D2BC4228DBD1A00EBA457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		864D2BC6228DBD1A00EBA457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		864D2BCB228DBD1A00EBA457 /* OttocashSDKDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OttocashSDKDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		864D2BCF228DBD1A00EBA457 /* OttocashSDKDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OttocashSDKDemoUITests.swift; sourceTree = "<group>"; };
 		864D2BD1228DBD1A00EBA457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A3A06610B047EEE1622D49B1 /* Pods-OttocashSDKDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OttocashSDKDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-OttocashSDKDemoUITests/Pods-OttocashSDKDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		CC050C5300ECAB76085B9AB6 /* Pods-OttocashSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OttocashSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-OttocashSDKDemo/Pods-OttocashSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
-		EE5D0B165C52AE052FF0F7B3 /* Pods-OttocashSDKDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OttocashSDKDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-OttocashSDKDemoUITests/Pods-OttocashSDKDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		944415405F99FE024D36DA0E /* Pods-OttocashSDKDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OttocashSDKDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-OttocashSDKDemoUITests/Pods-OttocashSDKDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ADE929FFF8DBD06BB0B8A922 /* Pods-OttocashSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OttocashSDKDemo.release.xcconfig"; path = "Target Support Files/Pods-OttocashSDKDemo/Pods-OttocashSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CA100B8860EEC8EF48B07CB1 /* Pods-OttocashSDKDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OttocashSDKDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-OttocashSDKDemoUITests/Pods-OttocashSDKDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6995EA4108007E501766F70 /* Pods-OttocashSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OttocashSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-OttocashSDKDemo/Pods-OttocashSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FE056740250F4BAF00CA3392 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FE056742250F4BCB00CA3392 /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		FE056744250F4BCF00CA3392 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE056746250F4BE000CA3392 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CC854490A2B2CA7E67FCB15 /* Pods_OttocashSDKDemo.framework in Frameworks */,
+				BB4A10C138FCBBBA732A2199 /* Pods_OttocashSDKDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4688B808D6C513315C30F5B6 /* Pods_OttocashSDKDemoUITests.framework in Frameworks */,
+				A78FEF109C8447184EDF10F6 /* Pods_OttocashSDKDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,7 +77,7 @@
 				864D2BCE228DBD1A00EBA457 /* OttocashSDKDemoUITests */,
 				864D2BB8228DBD1900EBA457 /* Products */,
 				8B6A64025B14FBD613A95901 /* Pods */,
-				DAD1633F36539D9ECB3D00F0 /* Frameworks */,
+				FFFA2E36320F0E4184F2BA6D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,8 +94,10 @@
 			isa = PBXGroup;
 			children = (
 				864D2BBA228DBD1900EBA457 /* AppDelegate.swift */,
-				864D2BBC228DBD1900EBA457 /* ViewController.swift */,
-				864D2BBE228DBD1900EBA457 /* Main.storyboard */,
+				FE056742250F4BCB00CA3392 /* AuthViewController.swift */,
+				FE056744250F4BCF00CA3392 /* ViewController.swift */,
+				FE056746250F4BE000CA3392 /* BaseViewController.swift */,
+				FE056740250F4BAF00CA3392 /* Main.storyboard */,
 				864D2BC1228DBD1A00EBA457 /* Assets.xcassets */,
 				864D2BC3228DBD1A00EBA457 /* LaunchScreen.storyboard */,
 				864D2BC6228DBD1A00EBA457 /* Info.plist */,
@@ -111,19 +117,19 @@
 		8B6A64025B14FBD613A95901 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0E2FB1734CD4E2EBF916AF97 /* Pods-OttocashSDKDemo.debug.xcconfig */,
-				CC050C5300ECAB76085B9AB6 /* Pods-OttocashSDKDemo.release.xcconfig */,
-				EE5D0B165C52AE052FF0F7B3 /* Pods-OttocashSDKDemoUITests.debug.xcconfig */,
-				A3A06610B047EEE1622D49B1 /* Pods-OttocashSDKDemoUITests.release.xcconfig */,
+				D6995EA4108007E501766F70 /* Pods-OttocashSDKDemo.debug.xcconfig */,
+				ADE929FFF8DBD06BB0B8A922 /* Pods-OttocashSDKDemo.release.xcconfig */,
+				CA100B8860EEC8EF48B07CB1 /* Pods-OttocashSDKDemoUITests.debug.xcconfig */,
+				944415405F99FE024D36DA0E /* Pods-OttocashSDKDemoUITests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		DAD1633F36539D9ECB3D00F0 /* Frameworks */ = {
+		FFFA2E36320F0E4184F2BA6D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0AC5904234320A022B5B108A /* Pods_OttocashSDKDemo.framework */,
-				4ECEB16AC078A701518C4899 /* Pods_OttocashSDKDemoUITests.framework */,
+				3793CC327EADADF51D16D506 /* Pods_OttocashSDKDemo.framework */,
+				47A1C2820A1C7D31E5C00990 /* Pods_OttocashSDKDemoUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -135,12 +141,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 864D2BD4228DBD1A00EBA457 /* Build configuration list for PBXNativeTarget "OttocashSDKDemo" */;
 			buildPhases = (
-				AABC1CB2C42A968B8CAF5085 /* [CP] Check Pods Manifest.lock */,
+				C25AE491A468B0134CE6649A /* [CP] Check Pods Manifest.lock */,
 				864D2BB3228DBD1900EBA457 /* Sources */,
 				864D2BB4228DBD1900EBA457 /* Frameworks */,
 				864D2BB5228DBD1900EBA457 /* Resources */,
-				07C1507162B288DD68E2BA91 /* [CP] Embed Pods Frameworks */,
 				86F7A3D322FC1A770060166C /* ShellScript */,
+				BE3DFD2E472EF7D4B827EBDD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,7 +161,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 864D2BD7228DBD1A00EBA457 /* Build configuration list for PBXNativeTarget "OttocashSDKDemoUITests" */;
 			buildPhases = (
-				3FBDD7F69845D10AD1F00892 /* [CP] Check Pods Manifest.lock */,
+				1D00641503A3BCDF778ADBEC /* [CP] Check Pods Manifest.lock */,
 				864D2BC7228DBD1A00EBA457 /* Sources */,
 				864D2BC8228DBD1A00EBA457 /* Frameworks */,
 				864D2BC9228DBD1A00EBA457 /* Resources */,
@@ -213,9 +219,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE056741250F4BAF00CA3392 /* Main.storyboard in Resources */,
 				864D2BC5228DBD1A00EBA457 /* LaunchScreen.storyboard in Resources */,
 				864D2BC2228DBD1A00EBA457 /* Assets.xcassets in Resources */,
-				864D2BC0228DBD1900EBA457 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,24 +235,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		07C1507162B288DD68E2BA91 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OttocashSDKDemo/Pods-OttocashSDKDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-OttocashSDKDemo/Pods-OttocashSDKDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OttocashSDKDemo/Pods-OttocashSDKDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3FBDD7F69845D10AD1F00892 /* [CP] Check Pods Manifest.lock */ = {
+		1D00641503A3BCDF778ADBEC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -285,7 +274,24 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Fabric/run\" 0753164414cfdea66e1c55a2b9bea2ca7aa7c9f5 14d97a5fab37457e846347fe1b08c8da352870bd10c44397ea1b05b215a3b25c\n";
 		};
-		AABC1CB2C42A968B8CAF5085 /* [CP] Check Pods Manifest.lock */ = {
+		BE3DFD2E472EF7D4B827EBDD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OttocashSDKDemo/Pods-OttocashSDKDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OttocashSDKDemo/Pods-OttocashSDKDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OttocashSDKDemo/Pods-OttocashSDKDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C25AE491A468B0134CE6649A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -314,7 +320,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				864D2BBD228DBD1900EBA457 /* ViewController.swift in Sources */,
+				FE056745250F4BCF00CA3392 /* ViewController.swift in Sources */,
+				FE056747250F4BE000CA3392 /* BaseViewController.swift in Sources */,
+				FE056743250F4BCB00CA3392 /* AuthViewController.swift in Sources */,
 				864D2BBB228DBD1900EBA457 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,14 +346,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		864D2BBE228DBD1900EBA457 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				864D2BBF228DBD1900EBA457 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		864D2BC3228DBD1A00EBA457 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -475,7 +475,7 @@
 		};
 		864D2BD5228DBD1A00EBA457 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E2FB1734CD4E2EBF916AF97 /* Pods-OttocashSDKDemo.debug.xcconfig */;
+			baseConfigurationReference = D6995EA4108007E501766F70 /* Pods-OttocashSDKDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -484,6 +484,7 @@
 				DEVELOPMENT_TEAM = R7GMW42N3T;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = OttocashSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -499,7 +500,7 @@
 		};
 		864D2BD6228DBD1A00EBA457 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC050C5300ECAB76085B9AB6 /* Pods-OttocashSDKDemo.release.xcconfig */;
+			baseConfigurationReference = ADE929FFF8DBD06BB0B8A922 /* Pods-OttocashSDKDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -507,6 +508,7 @@
 				DEVELOPMENT_TEAM = R7GMW42N3T;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = OttocashSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -522,7 +524,7 @@
 		};
 		864D2BD8228DBD1A00EBA457 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE5D0B165C52AE052FF0F7B3 /* Pods-OttocashSDKDemoUITests.debug.xcconfig */;
+			baseConfigurationReference = CA100B8860EEC8EF48B07CB1 /* Pods-OttocashSDKDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -542,7 +544,7 @@
 		};
 		864D2BD9228DBD1A00EBA457 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3A06610B047EEE1622D49B1 /* Pods-OttocashSDKDemoUITests.release.xcconfig */;
+			baseConfigurationReference = 944415405F99FE024D36DA0E /* Pods-OttocashSDKDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
